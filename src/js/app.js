@@ -319,6 +319,7 @@ App = {
    //below is the Result page 
    
     if (state == 2) {
+      var result = $('#Results');
       $("#not").hide();
       var contestants = [];
       for (var i = 1; i <= contestantsCount; i++) {
